@@ -26,9 +26,11 @@ jobs:
         pip install pythonping requests aiodns retry beautifulsoup4
         
     - name: Run updater
-      run: |
-        cd ${{ github.workspace }}
-        python src/main.py
+    run: |
+      # 添加项目根目录到PYTHONPATH
+      export PYTHONPATH=$GITHUB_WORKSPACE
+      cd $GITHUB_WORKSPACE
+      python -m hosts_generator.main
         
     - name: Commit changes
       run: |

@@ -1,19 +1,27 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-GitHub Hosts 自动更新主程序
+GitHub Hosts 自动更新主程序（修正时区版本）
 """
 import asyncio
 import sys
 from datetime import datetime
+from zoneinfo import ZoneInfo  # Python 3.9+ 标准库
+
 from .utils import (
     parse_domain_file,
     resolve_domains,
     generate_hosts_content
 )
 
+def get_beijing_time():
+    """获取北京时间（UTC+8）"""
+    return datetime.now(ZoneInfo("Asia/Shanghai"))
+
 async def main():
-    print(f"\n🚀 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} 开始解析域名")
+    # 使用北京时间
+    beijing_time = get_beijing_time()
+    print(f"\n🚀 {beijing_time.strftime('%Y-%m-%d %H:%M:%S')} [UTC+8] 开始解析域名")
     
     try:
         # 1. 读取域名配置
@@ -25,8 +33,13 @@ async def main():
         print("⏳ 正在解析域名...")
         ip_map = await resolve_domains(domains)
         
-        # 3. 生成hosts内容
-        hosts_content = generate_hosts_content(domain_structure, ip_map)
+        # 3. 生成hosts内容（头部添加北京时间戳）
+        hosts_content = f"""# GitHub Hosts
+# 项目地址: https://github.com/ParkCR/hosts-1
+# 更新时间: {beijing_time.strftime('%Y-%m-%d %H:%M:%S')} (UTC+8)
+# 请勿手动修改本文件！
+{generate_hosts_content(domain_structure, ip_map)}
+"""
         
         # 4. 写入文件
         with open("hosts.txt", "w", encoding="utf-8") as f:

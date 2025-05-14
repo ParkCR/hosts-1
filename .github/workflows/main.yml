@@ -24,15 +24,18 @@ jobs:
         python -m pip install --upgrade pip
         pip install pythonping requests-html aiodns retry
         
+    - name: Add project to PYTHONPATH
+      run: echo "$GITHUB_WORKSPACE" >> $GITHUB_PATH
+        
     - name: Run updater
       run: |
-        cd src
-        python main.py
+        cd $GITHUB_WORKSPACE
+        python -m src.main
         
     - name: Commit changes
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
-        git add ../hosts.txt
+        git add hosts.txt
         git diff --quiet && git diff --staged --quiet || git commit -m "Update hosts.txt [skip ci]"
         git push

@@ -16,7 +16,7 @@ from retry import retry
 
 # 配置常量
 PING_TIMEOUT = 1  # 秒
-DNS_SERVERS = ["1.1.1.1", "8.8.8.8", "114.114.114.114"]  # Cloudflare, Google, 114DNS
+DNS_SERVERS = ["1.1.1.1", "8.8.8.8", "101.101.101.101","101.102.103.104"]  # Cloudflare, Google, Quad101DNS
 DISCARD_IPS = ["1.0.1.1", "1.2.1.1", "127.0.0.1"]  # 需要排除的IP
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 

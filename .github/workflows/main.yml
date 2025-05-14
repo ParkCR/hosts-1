@@ -6,9 +6,6 @@ on:
       timezone: "Asia/Shanghai"
   workflow_dispatch:
 
-permissions:
-  contents: write  # 允许工作流推送更改
-
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -16,15 +13,18 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
+    - name: Verify files
+      run: |
+        pwd
+        ls -la
+        cat requirements.txt
+    
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
         
-    - name: Install system dependencies
-      run: sudo apt-get install -y libxml2-dev libxslt-dev python3-dev
-        
-    - name: Install Python dependencies
+    - name: Install dependencies
       run: |
         pip install --upgrade pip
         pip install -r requirements.txt

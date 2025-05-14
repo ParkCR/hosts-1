@@ -7,47 +7,53 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # 必须的写入权限
+  contents: write
 
 jobs:
   update:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v4
-      with:
-        fetch-depth: 0  # 获取完整提交历史
-        token: ${{ secrets.GITHUB_TOKEN }}  # 显式传递token
-        
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-        
-    - name: Install dependencies
-      run: |
-        pip install --force-reinstall -r requirements.txt
-        
-    - name: Run updater
-      run: |
-        export PYTHONPATH=$GITHUB_WORKSPACE
-        python -m hosts_generator.main
-        
-    - name: Commit and push
-      run: |
-        git config --global user.name "GitHub Actions"
-        git config --global user.email "actions@github.com"
-        git add hosts.txt
-        git commit -m "Update hosts.txt [skip ci]"
-        git push origin HEAD:main
-
-              - name: Wait for 10 seconds
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install --force-reinstall -r requirements.txt
+          
+      - name: Run updater
+        run: |
+          export PYTHONPATH=$GITHUB_WORKSPACE
+          python -m hosts_generator.main
+          
+      - name: Check for changes
+        id: check-changes
+        run: |
+          git diff --quiet hosts.txt || echo "has_changes=true" >> $GITHUB_OUTPUT
+          
+      - name: Commit and push
+        if: steps.check-changes.outputs.has_changes == 'true'
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add hosts.txt
+          git commit -m "Update hosts.txt [skip ci]"
+          git push origin HEAD:main
+          
+      - name: Wait for 10 seconds
         run: sleep 10
-        
-    - name: Purge jsDelivr cache
-      run: |
-       # 替换 YOUR_FILE_URL 为你的文件在 jsDelivr 上的完整 URL
-        FILE_URL="https://cdn.jsdelivr.net/gh/ParkCR/hosts-1@main/hosts.txt"
-        curl -X POST "https://purge.jsdelivr.net/" \
-        -H "Content-Type: application/json" \
-        -d "{\"path\":\"$FILE_URL\"}
+          
+      - name: Purge jsDelivr cache
+        run: |
+          FILE_URL="https://cdn.jsdelivr.net/gh/ParkCR/hosts-1@main/hosts.txt"
+          curl -sSf -X POST "https://purge.jsdelivr.net/" \
+            -H "Content-Type: application/json" \
+            -d "{\"path\":\"$FILE_URL\"}" || echo "缓存清理失败"

@@ -6,19 +6,19 @@ on:
       timezone: "Asia/Shanghai"
   workflow_dispatch:
 
+permissions:
+  contents: write  # 必须的写入权限
+
 jobs:
   update:
     runs-on: ubuntu-latest
     
     steps:
     - uses: actions/checkout@v4
-    
-    - name: Verify files
-      run: |
-        pwd
-        ls -la
-        cat requirements.txt
-    
+      with:
+        fetch-depth: 0  # 获取完整提交历史
+        token: ${{ secrets.GITHUB_TOKEN }}  # 显式传递token
+        
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
@@ -26,9 +26,6 @@ jobs:
         
     - name: Install dependencies
       run: |
-        # 验证文件是否存在
-        ls -b | grep requirements.txt
-        # 强制安装
         pip install --force-reinstall -r requirements.txt
         
     - name: Run updater
@@ -36,10 +33,10 @@ jobs:
         export PYTHONPATH=$GITHUB_WORKSPACE
         python -m hosts_generator.main
         
-    - name: Commit changes
+    - name: Commit and push
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         git add hosts.txt
-        git commit -m "Update hosts.txt [skip ci]" || echo "No changes to commit"
-        git push
+        git commit -m "Update hosts.txt [skip ci]"
+        git push origin HEAD:main

@@ -48,12 +48,5 @@ jobs:
           git commit -m "Update hosts.txt [skip ci]"
           git push origin HEAD:main
           
-      - name: Wait for 10 seconds
-        run: sleep 10
-          
-      - name: Purge jsDelivr cache
-        run: |
-          FILE_URL="/gh/ParkCR/hosts-1@main/hosts.txt"
-          curl -sSf -X POST "https://purge.jsdelivr.net/" \
-            -H "Content-Type: application/json" \
-            -d "{\"path\":\"$FILE_URL\"}" || echo "缓存清理失败"
+      - name: Mirror Refresh
+        run: sleep 10 && curl 'https://purge.jsdelivr.net/gh/${{github.repository}}/hosts.txt'

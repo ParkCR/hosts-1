@@ -2,4 +2,4 @@ pythonping>=1.1.4
 requests-html>=0.10.0
 aiodns>=3.0.0
 retry>=0.9.2
-pycares>=3.0.0; sys_platform == 'win32'
+lxml[html_clean]>=4.9.3

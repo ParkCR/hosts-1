@@ -53,7 +53,7 @@ jobs:
           
       - name: Purge jsDelivr cache
         run: |
-          FILE_URL="https://cdn.jsdelivr.net/gh/ParkCR/hosts-1@main/hosts.txt"
+          FILE_URL="/gh/ParkCR/hosts-1@main/hosts.txt"
           curl -sSf -X POST "https://purge.jsdelivr.net/" \
             -H "Content-Type: application/json" \
             -d "{\"path\":\"$FILE_URL\"}" || echo "缓存清理失败"

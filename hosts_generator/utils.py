@@ -143,13 +143,9 @@ def generate_hosts_content(
     max_ip_len = max(len(ip) for ip in valid_ips) if valid_ips else 15
     padding_width = max_ip_len + min_padding
     
-    # 文件头
+    # 文件头 (精简版)
     header = f"""# GitHub Hosts 自动更新
-# 项目地址: https://github.com/yourname/github-hosts-updater
-# 更新时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
-# 总计解析: {len([v for v in ip_map.values() if not v.startswith('#')])}/{len(ip_map)} 成功
-
-"""
+# 总计解析: {len([v for v in ip_map.values() if not v.startswith('#')])}/{len(ip_map)} 成功\n\n"""
     
     # 构建内容
     content = []

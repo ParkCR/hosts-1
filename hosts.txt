@@ -1,24 +1,24 @@
 # GitHub Hosts
 # 项目地址: https://github.com/ParkCR/hosts-1
-# 更新时间: 2025-07-05 19:08:01 (UTC+8)
+# 更新时间: 2025-07-05 20:17:20 (UTC+8)
 # 请勿手动修改本文件！
 # GitHub Hosts 自动更新
 # 总计解析: 107/117 成功
 
 # GitHub Start
-140.82.114.26      alive.github.com
-140.82.112.25      live.github.com
-185.199.109.154    github.githubassets.com
-140.82.114.21      central.github.com
+140.82.114.25      alive.github.com
+140.82.113.26      live.github.com
+185.199.108.154    github.githubassets.com
+140.82.113.22      central.github.com
 185.199.111.133    desktop.githubusercontent.com
 185.199.111.133    camo.githubusercontent.com
 185.199.111.133    github.map.fastly.net
-151.101.1.194      github.global.ssl.fastly.net
-140.82.113.3       gist.github.com
-185.199.108.153    github.io
-140.82.112.4       github.com
+151.101.129.194    github.global.ssl.fastly.net
+140.82.114.4       gist.github.com
+185.199.110.153    github.io
+140.82.113.4       github.com
 192.0.66.2         github.blog
-140.82.112.5       api.github.com
+140.82.113.6       api.github.com
 185.199.111.133    raw.githubusercontent.com
 185.199.111.133    user-images.githubusercontent.com
 185.199.111.133    favicons.githubusercontent.com
@@ -30,13 +30,13 @@
 185.199.111.133    avatars0.githubusercontent.com
 185.199.111.133    avatars.githubusercontent.com
 140.82.114.10      codeload.github.com
-3.5.25.105         github-cloud.s3.amazonaws.com
-3.5.30.111         github-com.s3.amazonaws.com
-3.5.27.146         github-production-release-asset-2e65be.s3.amazonaws.com
-16.182.107.209     github-production-user-asset-6210df.s3.amazonaws.com
-52.216.54.41       github-production-repository-file-5c1aeb.s3.amazonaws.com
-185.199.108.153    githubstatus.com
-140.82.112.18      github.community
+54.231.172.81      github-cloud.s3.amazonaws.com
+16.15.176.156      github-com.s3.amazonaws.com
+3.5.27.181         github-production-release-asset-2e65be.s3.amazonaws.com
+16.15.217.10       github-production-user-asset-6210df.s3.amazonaws.com
+54.231.197.201     github-production-repository-file-5c1aeb.s3.amazonaws.com
+185.199.110.153    githubstatus.com
+140.82.112.17      github.community
 52.224.38.193      github.dev
 140.82.112.22      collector.github.com
 13.107.42.16       pipelines.actions.githubusercontent.com
@@ -46,78 +46,78 @@
 
 # GitHub End
 # wallhaven Start
-104.26.11.35       th.wallhaven.cc
-104.26.11.35       w.wallhaven.cc
-104.26.11.35       www.wallhaven.cc
-104.26.11.35       wallhaven.cc
-104.26.11.35       alpha.wallhaven.cc
+172.67.74.111      th.wallhaven.cc
+172.67.74.111      w.wallhaven.cc
+172.67.74.111      www.wallhaven.cc
+172.67.74.111      wallhaven.cc
+172.67.74.111      alpha.wallhaven.cc
 
 # wallhaven End
 # pinterest Start
-151.101.128.84     pinterest.com
-184.31.101.34      www.pinterest.com
-151.101.128.84     pinimg.com
+151.101.192.84     pinterest.com
+151.101.192.84     www.pinterest.com
+151.101.192.84     pinimg.com
 23.20.165.22       sm.pinimg.com
-151.101.128.84     s.pinimg.com
-151.101.128.84     i.pinimg.com
+151.101.192.84     s.pinimg.com
+151.101.192.84     i.pinimg.com
 
 # pinterest End
 # twitch Start
-142.250.190.46     img.youtube.com
-44.246.175.133     irc-ws.chat.twitch.tv
+172.217.2.46       img.youtube.com
+35.84.40.34        irc-ws.chat.twitch.tv
 # 解析失败             irc-ws-r.chat.twitch.tv
-18.64.183.57       passport.twitch.tv
-18.64.183.34       assets.twitch.tv
-3.170.152.64       clips-media-assets2.twitch.tv
+18.64.183.65       passport.twitch.tv
+3.168.40.72        assets.twitch.tv
+3.170.152.88       clips-media-assets2.twitch.tv
 # 解析失败             abs.hls.ttvnw.net
 # 解析失败             video-edge-646949.pdx01.abs.hls.ttvnw.net
-18.172.122.88      id-cdn.twitch.tv
-35.85.234.172      id.twitch.tv
-54.188.240.232     pubsub-edge.twitch.tv
-3.167.183.5        supervisor.ext-twitch.tv
-3.162.163.8        vod-secure.twitch.tv
+18.172.122.34      id-cdn.twitch.tv
+44.237.14.6        id.twitch.tv
+34.213.64.10       pubsub-edge.twitch.tv
+3.167.183.112      supervisor.ext-twitch.tv
+3.162.163.62       vod-secure.twitch.tv
 151.101.130.167    music.twitch.tv
-3.167.152.115      panels.twitch.tv
-151.101.194.167    twitch.tv
+3.167.152.30       panels.twitch.tv
+151.101.130.167    twitch.tv
 151.101.194.214    www.twitch.tv
 151.101.194.214    m.twitch.tv
-151.101.194.167    app.twitch.tv
+151.101.130.167    app.twitch.tv
 # 解析失败             badges.twitch.tv
-18.160.213.55      blog.twitch.tv
-44.236.194.0       inspector.twitch.tv
+18.160.213.37      blog.twitch.tv
+44.232.181.191     inspector.twitch.tv
 # 解析失败             stream.twitch.tv
 18.172.126.57      dev.twitch.tv
 151.101.130.167    clips.twitch.tv
 151.101.194.214    gql.twitch.tv
-18.172.134.51      vod-storyboards.twitch.tv
-52.27.222.78       trowel.twitch.tv
+18.172.134.24      vod-storyboards.twitch.tv
+52.24.128.99       trowel.twitch.tv
 # 解析失败             countess.twitch.tv
-3.167.183.50       extension-files.twitch.tv
-18.154.185.116     vod-metro.twitch.tv
+3.167.183.110      extension-files.twitch.tv
+18.154.185.38      vod-metro.twitch.tv
 # 解析失败             pubster.twitch.tv
-104.114.79.88      help.twitch.tv
+23.66.127.135      help.twitch.tv
 67.199.248.13      link.twitch.tv
-151.101.194.167    player.twitch.tv
+151.101.130.167    player.twitch.tv
 3.167.138.28       api.twitch.tv
 3.168.51.21        cvp.twitch.tv
 # 解析失败             client-event-reporter.twitch.tv
 # 解析失败             gds-vhs-drops-campaign-images.twitch.tv
 # 解析失败             us-west-2.uploads-regional.twitch.tv
-18.160.249.25      assets.help.twitch.tv
-3.169.149.118      discuss.dev.twitch.tv
-151.101.130.167    dashboard.twitch.tv
+18.160.249.112     assets.help.twitch.tv
+3.169.149.12       discuss.dev.twitch.tv
+151.101.2.167      dashboard.twitch.tv
 
 # twitch End
 # artstation Start
 104.19.170.40      artstation.com
-104.19.169.40      www.artstation.com
-104.19.169.40      cdn-learning.artstation.com
-104.19.169.40      cdna.artstation.com
+104.19.170.40      www.artstation.com
+104.19.170.40      cdn-learning.artstation.com
+104.19.170.40      cdna.artstation.com
 104.19.170.40      cdn.artstation.com
-104.19.169.40      cdnb.artstation.com
-104.19.169.40      aleksi.artstation.com
-104.19.169.40      aroll.artstation.com
-104.19.169.40      dya.artstation.com
+104.19.170.40      cdnb.artstation.com
+104.19.170.40      aleksi.artstation.com
+104.19.170.40      aroll.artstation.com
+104.19.170.40      dya.artstation.com
 104.19.170.40      yourihoek.artstation.com
 104.19.170.40      rishablue.artstation.com
 104.19.170.40      ww.artstation.com

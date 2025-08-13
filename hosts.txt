@@ -1,48 +1,48 @@
 # GitHub Hosts
 # 项目地址: https://github.com/ParkCR/hosts-1
-# 更新时间: 2025-08-13 16:14:45 (UTC+8)
+# 更新时间: 2025-08-13 17:13:25 (UTC+8)
 # 请勿手动修改本文件！
 # GitHub Hosts 自动更新
 # 总计解析: 107/117 成功
 
 # GitHub Start
-140.82.112.25      alive.github.com
-140.82.114.25      live.github.com
+140.82.112.26      alive.github.com
+140.82.114.26      live.github.com
 185.199.111.154    github.githubassets.com
-140.82.113.22      central.github.com
-185.199.110.133    desktop.githubusercontent.com
-185.199.110.133    camo.githubusercontent.com
-185.199.110.133    github.map.fastly.net
-151.101.1.194      github.global.ssl.fastly.net
-140.82.112.3       gist.github.com
-185.199.108.153    github.io
-140.82.114.4       github.com
+140.82.112.22      central.github.com
+185.199.108.133    desktop.githubusercontent.com
+185.199.108.133    camo.githubusercontent.com
+185.199.108.133    github.map.fastly.net
+151.101.193.194    github.global.ssl.fastly.net
+140.82.116.4       gist.github.com
+185.199.111.153    github.io
+140.82.116.3       github.com
 192.0.66.2         github.blog
-140.82.113.5       api.github.com
-185.199.110.133    raw.githubusercontent.com
-185.199.110.133    user-images.githubusercontent.com
-185.199.111.133    favicons.githubusercontent.com
-185.199.111.133    avatars5.githubusercontent.com
-185.199.110.133    avatars4.githubusercontent.com
-185.199.110.133    avatars3.githubusercontent.com
-185.199.110.133    avatars2.githubusercontent.com
-185.199.111.133    avatars1.githubusercontent.com
-185.199.111.133    avatars0.githubusercontent.com
-185.199.111.133    avatars.githubusercontent.com
-140.82.114.9       codeload.github.com
-16.182.105.33      github-cloud.s3.amazonaws.com
-52.216.61.185      github-com.s3.amazonaws.com
-52.216.56.177      github-production-release-asset-2e65be.s3.amazonaws.com
-52.216.54.129      github-production-user-asset-6210df.s3.amazonaws.com
-3.5.28.116         github-production-repository-file-5c1aeb.s3.amazonaws.com
+140.82.116.6       api.github.com
+185.199.108.133    raw.githubusercontent.com
+185.199.108.133    user-images.githubusercontent.com
+185.199.108.133    favicons.githubusercontent.com
+185.199.108.133    avatars5.githubusercontent.com
+185.199.108.133    avatars4.githubusercontent.com
+185.199.108.133    avatars3.githubusercontent.com
+185.199.108.133    avatars2.githubusercontent.com
+185.199.108.133    avatars1.githubusercontent.com
+185.199.108.133    avatars0.githubusercontent.com
+185.199.108.133    avatars.githubusercontent.com
+140.82.116.10      codeload.github.com
+52.217.37.60       github-cloud.s3.amazonaws.com
+16.182.42.105      github-com.s3.amazonaws.com
+3.5.30.206         github-production-release-asset-2e65be.s3.amazonaws.com
+16.15.193.27       github-production-user-asset-6210df.s3.amazonaws.com
+3.5.30.206         github-production-repository-file-5c1aeb.s3.amazonaws.com
 185.199.111.153    githubstatus.com
-140.82.114.18      github.community
-52.224.38.193      github.dev
-140.82.112.21      collector.github.com
+140.82.112.18      github.community
+20.99.227.183      github.dev
+140.82.114.22      collector.github.com
 13.107.42.16       pipelines.actions.githubusercontent.com
-185.199.111.133    media.githubusercontent.com
-185.199.110.133    cloud.githubusercontent.com
-185.199.111.133    objects.githubusercontent.com
+185.199.108.133    media.githubusercontent.com
+185.199.108.133    cloud.githubusercontent.com
+185.199.108.133    objects.githubusercontent.com
 
 # GitHub End
 # wallhaven Start
@@ -54,90 +54,90 @@
 
 # wallhaven End
 # pinterest Start
-151.101.0.84       pinterest.com
-151.101.0.84       www.pinterest.com
-151.101.0.84       pinimg.com
-50.17.2.67         sm.pinimg.com
-151.101.0.84       s.pinimg.com
-151.101.0.84       i.pinimg.com
+151.101.128.84     pinterest.com
+151.101.128.84     www.pinterest.com
+151.101.128.84     pinimg.com
+23.20.165.22       sm.pinimg.com
+23.37.17.8         s.pinimg.com
+23.44.229.233      i.pinimg.com
 
 # pinterest End
 # twitch Start
-172.217.1.110      img.youtube.com
-35.83.190.121      irc-ws.chat.twitch.tv
+142.251.46.206     img.youtube.com
+54.149.21.252      irc-ws.chat.twitch.tv
 # 解析失败             irc-ws-r.chat.twitch.tv
-18.64.183.80       passport.twitch.tv
-108.156.91.62      assets.twitch.tv
-18.160.213.70      clips-media-assets2.twitch.tv
+18.244.214.52      passport.twitch.tv
+13.227.74.21       assets.twitch.tv
+13.227.74.37       clips-media-assets2.twitch.tv
 # 解析失败             abs.hls.ttvnw.net
 # 解析失败             video-edge-646949.pdx01.abs.hls.ttvnw.net
-18.172.122.88      id-cdn.twitch.tv
+18.155.202.50      id-cdn.twitch.tv
 35.163.37.213      id.twitch.tv
-54.148.7.33        pubsub-edge.twitch.tv
-18.160.200.103     supervisor.ext-twitch.tv
-3.162.163.108      vod-secure.twitch.tv
-151.101.66.167     music.twitch.tv
-3.167.152.95       panels.twitch.tv
+54.70.30.24        pubsub-edge.twitch.tv
+108.138.246.10     supervisor.ext-twitch.tv
+18.155.202.93      vod-secure.twitch.tv
+151.101.194.167    music.twitch.tv
+65.8.161.122       panels.twitch.tv
 151.101.66.167     twitch.tv
-151.101.130.214    www.twitch.tv
-151.101.130.214    m.twitch.tv
-151.101.66.167     app.twitch.tv
+151.101.194.214    www.twitch.tv
+151.101.194.214    m.twitch.tv
+151.101.194.167    app.twitch.tv
 # 解析失败             badges.twitch.tv
-18.160.213.44      blog.twitch.tv
-54.68.111.235      inspector.twitch.tv
+3.169.183.23       blog.twitch.tv
+54.213.65.253      inspector.twitch.tv
 # 解析失败             stream.twitch.tv
-18.172.126.57      dev.twitch.tv
-151.101.66.167     clips.twitch.tv
-151.101.130.214    gql.twitch.tv
-18.172.134.2       vod-storyboards.twitch.tv
-52.36.225.27       trowel.twitch.tv
+13.227.22.66       dev.twitch.tv
+151.101.194.167    clips.twitch.tv
+151.101.194.214    gql.twitch.tv
+18.244.214.59      vod-storyboards.twitch.tv
+52.43.104.60       trowel.twitch.tv
 # 解析失败             countess.twitch.tv
-18.160.200.81      extension-files.twitch.tv
-18.154.185.116     vod-metro.twitch.tv
+3.169.183.14       extension-files.twitch.tv
+65.8.161.30        vod-metro.twitch.tv
 # 解析失败             pubster.twitch.tv
-23.52.42.210       help.twitch.tv
+23.216.149.154     help.twitch.tv
 67.199.248.13      link.twitch.tv
-151.101.66.167     player.twitch.tv
-3.167.138.51       api.twitch.tv
-3.168.51.95        cvp.twitch.tv
+151.101.194.167    player.twitch.tv
+108.138.246.10     api.twitch.tv
+18.244.214.75      cvp.twitch.tv
 # 解析失败             client-event-reporter.twitch.tv
 # 解析失败             gds-vhs-drops-campaign-images.twitch.tv
 # 解析失败             us-west-2.uploads-regional.twitch.tv
-18.160.249.45      assets.help.twitch.tv
-3.169.149.118      discuss.dev.twitch.tv
-151.101.66.167     dashboard.twitch.tv
+18.239.199.2       assets.help.twitch.tv
+65.8.161.63        discuss.dev.twitch.tv
+151.101.130.167    dashboard.twitch.tv
 
 # twitch End
 # artstation Start
-104.19.170.40      artstation.com
+104.19.169.40      artstation.com
 104.19.170.40      www.artstation.com
-104.19.170.40      cdn-learning.artstation.com
+104.19.169.40      cdn-learning.artstation.com
 104.19.170.40      cdna.artstation.com
-104.19.170.40      cdn.artstation.com
-104.19.170.40      cdnb.artstation.com
+104.19.169.40      cdn.artstation.com
+104.19.169.40      cdnb.artstation.com
 104.19.170.40      aleksi.artstation.com
-104.19.170.40      aroll.artstation.com
-104.19.170.40      dya.artstation.com
+104.19.169.40      aroll.artstation.com
+104.19.169.40      dya.artstation.com
 104.19.170.40      yourihoek.artstation.com
 104.19.170.40      rishablue.artstation.com
-104.19.170.40      ww.artstation.com
-104.19.170.40      magazine.artstation.com
+104.19.169.40      ww.artstation.com
+104.19.169.40      magazine.artstation.com
 
 # artstation End
 # imgur Start
-199.232.192.193    imgur.com
+199.232.196.193    imgur.com
 199.232.196.193    i.imgur.com
-199.232.192.193    s.imgur.com
-104.18.32.86       i.stack.imgur.com
-199.232.192.193    m.imgur.com
+199.232.196.193    s.imgur.com
+172.64.155.170     i.stack.imgur.com
+199.232.196.193    m.imgur.com
 199.232.196.193    api.imgur.com
-199.232.192.193    p.imgur.com
-199.232.192.193    www.imgur.com
-199.232.192.193    fufufu23.imgur.com
-199.232.192.193    thepoy.imgur.com
-199.232.192.193    blog.imgur.com
-199.232.192.193    cellcow.imgur.com
-199.232.192.193    t.imgur.com
+199.232.196.193    p.imgur.com
+199.232.196.193    www.imgur.com
+199.232.196.193    fufufu23.imgur.com
+199.232.196.193    thepoy.imgur.com
+199.232.196.193    blog.imgur.com
+199.232.196.193    cellcow.imgur.com
+199.232.196.193    t.imgur.com
 
 # imgur End
 

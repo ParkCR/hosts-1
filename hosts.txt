@@ -1,126 +1,126 @@
 # GitHub Hosts
 # 项目地址: https://github.com/ParkCR/hosts-1
-# 更新时间: 2025-09-22 11:32:59 (UTC+8)
+# 更新时间: 2025-09-22 12:12:27 (UTC+8)
 # 请勿手动修改本文件！
 # GitHub Hosts 自动更新
 # 总计解析: 107/117 成功
 
 # GitHub Start
-140.82.112.26      alive.github.com
+140.82.114.26      alive.github.com
 140.82.112.25      live.github.com
-185.199.108.154    github.githubassets.com
-140.82.113.22      central.github.com
-185.199.108.133    desktop.githubusercontent.com
-185.199.108.133    camo.githubusercontent.com
-185.199.108.133    github.map.fastly.net
-151.101.1.194      github.global.ssl.fastly.net
-140.82.114.4       gist.github.com
-185.199.109.153    github.io
-140.82.113.4       github.com
+185.199.111.154    github.githubassets.com
+140.82.112.22      central.github.com
+185.199.109.133    desktop.githubusercontent.com
+185.199.109.133    camo.githubusercontent.com
+185.199.109.133    github.map.fastly.net
+151.101.65.194     github.global.ssl.fastly.net
+140.82.114.3       gist.github.com
+185.199.108.153    github.io
+140.82.114.3       github.com
 192.0.66.2         github.blog
-140.82.112.5       api.github.com
-185.199.108.133    raw.githubusercontent.com
-185.199.108.133    user-images.githubusercontent.com
-185.199.108.133    favicons.githubusercontent.com
-185.199.108.133    avatars5.githubusercontent.com
-185.199.108.133    avatars4.githubusercontent.com
-185.199.108.133    avatars3.githubusercontent.com
-185.199.108.133    avatars2.githubusercontent.com
-185.199.108.133    avatars1.githubusercontent.com
-185.199.108.133    avatars0.githubusercontent.com
-185.199.108.133    avatars.githubusercontent.com
-140.82.112.10      codeload.github.com
-3.5.28.246         github-cloud.s3.amazonaws.com
-52.216.35.89       github-com.s3.amazonaws.com
-3.5.28.234         github-production-release-asset-2e65be.s3.amazonaws.com
-3.5.29.212         github-production-user-asset-6210df.s3.amazonaws.com
-52.217.170.145     github-production-repository-file-5c1aeb.s3.amazonaws.com
-185.199.109.153    githubstatus.com
-140.82.113.17      github.community
+140.82.113.5       api.github.com
+185.199.109.133    raw.githubusercontent.com
+185.199.109.133    user-images.githubusercontent.com
+185.199.109.133    favicons.githubusercontent.com
+185.199.109.133    avatars5.githubusercontent.com
+185.199.109.133    avatars4.githubusercontent.com
+185.199.109.133    avatars3.githubusercontent.com
+185.199.109.133    avatars2.githubusercontent.com
+185.199.109.133    avatars1.githubusercontent.com
+185.199.109.133    avatars0.githubusercontent.com
+185.199.109.133    avatars.githubusercontent.com
+140.82.114.9       codeload.github.com
+3.5.6.125          github-cloud.s3.amazonaws.com
+16.182.66.49       github-com.s3.amazonaws.com
+52.216.51.121      github-production-release-asset-2e65be.s3.amazonaws.com
+52.216.171.179     github-production-user-asset-6210df.s3.amazonaws.com
+3.5.29.120         github-production-repository-file-5c1aeb.s3.amazonaws.com
+185.199.108.153    githubstatus.com
+140.82.113.18      github.community
 52.224.38.193      github.dev
-140.82.113.22      collector.github.com
+140.82.112.21      collector.github.com
 13.107.42.16       pipelines.actions.githubusercontent.com
-185.199.108.133    media.githubusercontent.com
-185.199.108.133    cloud.githubusercontent.com
-185.199.108.133    objects.githubusercontent.com
+185.199.109.133    media.githubusercontent.com
+185.199.109.133    cloud.githubusercontent.com
+185.199.109.133    objects.githubusercontent.com
 
 # GitHub End
 # wallhaven Start
 172.67.74.111      th.wallhaven.cc
 172.67.74.111      w.wallhaven.cc
-104.26.10.35       www.wallhaven.cc
+172.67.74.111      www.wallhaven.cc
 172.67.74.111      wallhaven.cc
 172.67.74.111      alpha.wallhaven.cc
 
 # wallhaven End
 # pinterest Start
-151.101.64.84      pinterest.com
-151.101.64.84      www.pinterest.com
-151.101.64.84      pinimg.com
+151.101.0.84       pinterest.com
+151.101.0.84       www.pinterest.com
+151.101.0.84       pinimg.com
 23.20.165.22       sm.pinimg.com
-23.219.187.33      s.pinimg.com
-151.101.192.84     i.pinimg.com
+151.101.0.84       s.pinimg.com
+151.101.0.84       i.pinimg.com
 
 # pinterest End
 # twitch Start
-192.178.220.101    img.youtube.com
-52.39.138.64       irc-ws.chat.twitch.tv
+142.251.163.139    img.youtube.com
+54.71.9.247        irc-ws.chat.twitch.tv
 # 解析失败             irc-ws-r.chat.twitch.tv
-13.249.141.29      passport.twitch.tv
-3.167.246.71       assets.twitch.tv
-3.161.242.67       clips-media-assets2.twitch.tv
+3.162.112.118      passport.twitch.tv
+18.67.76.27        assets.twitch.tv
+18.160.41.15       clips-media-assets2.twitch.tv
 # 解析失败             abs.hls.ttvnw.net
 # 解析失败             video-edge-646949.pdx01.abs.hls.ttvnw.net
-18.172.122.115     id-cdn.twitch.tv
-52.34.91.238       id.twitch.tv
-35.85.185.85       pubsub-edge.twitch.tv
-18.238.132.72      supervisor.ext-twitch.tv
-52.84.199.44       vod-secure.twitch.tv
-151.101.2.167      music.twitch.tv
-54.192.55.106      panels.twitch.tv
-151.101.2.167      twitch.tv
-151.101.66.214     www.twitch.tv
-151.101.66.214     m.twitch.tv
-151.101.2.167      app.twitch.tv
+3.171.76.46        id-cdn.twitch.tv
+52.26.209.26       id.twitch.tv
+100.20.173.104     pubsub-edge.twitch.tv
+3.162.103.117      supervisor.ext-twitch.tv
+99.84.160.128      vod-secure.twitch.tv
+151.101.194.167    music.twitch.tv
+3.167.69.101       panels.twitch.tv
+151.101.194.167    twitch.tv
+151.101.130.214    www.twitch.tv
+151.101.130.214    m.twitch.tv
+151.101.194.167    app.twitch.tv
 # 解析失败             badges.twitch.tv
-18.238.132.77      blog.twitch.tv
-35.163.5.155       inspector.twitch.tv
+3.167.69.52        blog.twitch.tv
+50.112.155.60      inspector.twitch.tv
 # 解析失败             stream.twitch.tv
-54.230.150.43      dev.twitch.tv
-151.101.2.167      clips.twitch.tv
-18.161.170.69      gql.twitch.tv
-3.161.225.6        vod-storyboards.twitch.tv
-44.231.168.205     trowel.twitch.tv
+3.167.36.47        dev.twitch.tv
+151.101.194.167    clips.twitch.tv
+18.64.236.11       gql.twitch.tv
+3.162.112.83       vod-storyboards.twitch.tv
+54.186.93.130      trowel.twitch.tv
 # 解析失败             countess.twitch.tv
-3.167.183.110      extension-files.twitch.tv
-18.154.185.90      vod-metro.twitch.tv
+3.162.125.9        extension-files.twitch.tv
+52.85.132.98       vod-metro.twitch.tv
 # 解析失败             pubster.twitch.tv
-23.66.127.167      help.twitch.tv
-67.199.248.13      link.twitch.tv
-151.101.2.167      player.twitch.tv
-18.245.113.50      api.twitch.tv
-52.222.205.96      cvp.twitch.tv
+23.48.203.142      help.twitch.tv
+67.199.248.12      link.twitch.tv
+151.101.194.167    player.twitch.tv
+3.171.117.87       api.twitch.tv
+3.167.56.115       cvp.twitch.tv
 # 解析失败             client-event-reporter.twitch.tv
 # 解析失败             gds-vhs-drops-campaign-images.twitch.tv
 # 解析失败             us-west-2.uploads-regional.twitch.tv
-18.160.249.20      assets.help.twitch.tv
-13.225.47.37       discuss.dev.twitch.tv
-151.101.2.167      dashboard.twitch.tv
+99.86.229.15       assets.help.twitch.tv
+18.160.10.122      discuss.dev.twitch.tv
+151.101.194.167    dashboard.twitch.tv
 
 # twitch End
 # artstation Start
-104.19.170.40      artstation.com
+104.19.169.40      artstation.com
 104.19.170.40      www.artstation.com
-104.19.170.40      cdn-learning.artstation.com
-104.19.170.40      cdna.artstation.com
-104.19.170.40      cdn.artstation.com
-104.19.170.40      cdnb.artstation.com
-104.19.170.40      aleksi.artstation.com
-104.19.170.40      aroll.artstation.com
-104.19.170.40      dya.artstation.com
-104.19.170.40      yourihoek.artstation.com
+104.19.169.40      cdn-learning.artstation.com
+104.19.169.40      cdna.artstation.com
+104.19.169.40      cdn.artstation.com
+104.19.169.40      cdnb.artstation.com
+104.19.169.40      aleksi.artstation.com
+104.19.169.40      aroll.artstation.com
+104.19.169.40      dya.artstation.com
+104.19.169.40      yourihoek.artstation.com
 104.19.170.40      rishablue.artstation.com
-104.19.170.40      ww.artstation.com
+104.19.169.40      ww.artstation.com
 104.19.170.40      magazine.artstation.com
 
 # artstation End
